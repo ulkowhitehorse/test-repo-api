@@ -1,26 +1,20 @@
 {
-  "project": {
-    "id": "echo-template",
-    "name": "echo-template",
-    "folder": "/"
+  "project" : {
+    "id" : "testiruem_prosto1-340-uVv",
+    "name" : "testiruem_prosto1-340-uVv",
+    "folder" : "/jaicp"
   },
-  "settings": {
-    "language": "ru",
-    "spellingCorrection": false,
-    "classificationAlgorithm": "sts",
-    "timezone": "Europe/Moscow",
-    "extendedSettings": {
-      "tokenizerEngine": "mystem"
-    }
+  "settings" : {
+    "language" : "ru",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "sts",
+    "timezone" : "Europe/Moscow",
+    "extendedSettings" : {
+      "tokenizerEngine" : "mystem"
+    },
+    "shared" : false
   },
-  "intents": [],
-  "entities": [],
-  "enabledSystemEntities": [
-    "duckling.number",
-    "duckling.time",
-    "duckling.duration",
-    "duckling.phone-number",
-    "duckling.email",
-    "duckling.url"
-  ]
+  "intents" : [ ],
+  "entities" : [ ],
+  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ]
 }
